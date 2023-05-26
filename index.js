@@ -30,7 +30,7 @@ app.get("/webhook", (req, res) => {
 app.post("/webhook", (req, res) => {
     const body = req.body;
 
-    console.log(JSON.stringify(body, null, 2));
+    console.log("test json = ", JSON.stringify(body, null, 2));
 
     if(body.object) {
         if(body.entry && body.entry[0].changes && 
