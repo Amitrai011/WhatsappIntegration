@@ -70,5 +70,5 @@ app.post("/webhook", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-    res.status(200).send("Hello World!");
+    res.status(200).send("Hello World, Whatsapp Integration!");
 });
