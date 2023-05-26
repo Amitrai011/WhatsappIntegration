@@ -74,5 +74,5 @@ app.get("/", (req, res) => {
 });
 
 // remove the port number
-// he is added the config vars in heroku
+// configuration config vars
 // create a permanent access token
